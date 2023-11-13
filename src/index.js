@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import * as ReactDOMClient from 'react-dom/client';
 import "./index.css";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter as Router } from "react-router-dom";
 
 // ReactDOM.render(
 //   <BrowserRouter>
@@ -17,6 +17,6 @@ const container = document.getElementById('root');
 // Create a root.
 const root = ReactDOMClient.createRoot(container);
 
-root.render(<BrowserRouter>
+root.render(<Router>
   <App />
-</BrowserRouter>);
+</Router>);
