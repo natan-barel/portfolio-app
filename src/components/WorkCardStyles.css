@@ -20,8 +20,9 @@
 .project-card img {
   width: 100%;
 }
+
 .project-title {
-  color: #fff;
+  color: white;
   padding: 1rem 0;
 }
 
@@ -45,7 +46,6 @@
   .project-container {
     max-width: 90%;
     margin: auto;
-
     grid-template-columns: 1fr;
   }
 }
