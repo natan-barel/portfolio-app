@@ -51,20 +51,24 @@ const Footer = () => {
             discussing new Projects and Devops challenges.
           </p>
           <div className="social">
-            <Link to="https://www.facebook.com/natan.barel/">
+            <a href="https://www.facebook.com/natan.barel/">
               <FaFacebook
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-            </Link>
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            </a>
+            <a href="https://www.linkedin.com/in/natan-barel/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://github.com/natan-barel/">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
