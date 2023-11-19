@@ -20,14 +20,11 @@
   padding: 1rem;
 }
 
-.location {
+.info {
   display: flex;
   margin-bottom: 0.8rem;
 }
 
-.location p {
-  line-height: 30px;
-}
 
 .right {
   height: 100%;
