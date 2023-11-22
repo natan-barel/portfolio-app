@@ -4,6 +4,7 @@ import React from "react";
 
 import IntroImg from "../assets/intro-bg.jpg";
 import { Link } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter"
 
 const HeroImg = () => {
   return (
@@ -12,9 +13,13 @@ const HeroImg = () => {
         <img className="into-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M A FREELANCER.</p>
-        <h1>React Developer.</h1>
-        <div>
+        <p>HI, I'M A</p>
+        <h1>
+          <span>
+            <Typewriter words={["Professional Coder.", "DevOps Engineer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+          </span>
+        </h1>
+        <div className="links">
           <Link to="/project" className="btn">
             Projects
           </Link>
