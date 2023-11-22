@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.744a76e3.css",
-    "main.js": "/portfolio-app/static/js/main.3da40953.js",
+    "main.css": "/portfolio-app/static/css/main.27e33bf0.css",
+    "main.js": "/portfolio-app/static/js/main.b2df09ff.js",
     "static/media/project2.png": "/portfolio-app/static/media/project2.ce59fe1c823ec29f4dd0.png",
     "static/media/project3.png": "/portfolio-app/static/media/project3.aefd7089f8fa104e3967.png",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
@@ -9,11 +9,11 @@
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "index.html": "/portfolio-app/index.html",
-    "main.744a76e3.css.map": "/portfolio-app/static/css/main.744a76e3.css.map",
-    "main.3da40953.js.map": "/portfolio-app/static/js/main.3da40953.js.map"
+    "main.27e33bf0.css.map": "/portfolio-app/static/css/main.27e33bf0.css.map",
+    "main.b2df09ff.js.map": "/portfolio-app/static/js/main.b2df09ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.744a76e3.css",
-    "static/js/main.3da40953.js"
+    "static/css/main.27e33bf0.css",
+    "static/js/main.b2df09ff.js"
   ]
 }
