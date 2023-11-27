@@ -16,6 +16,7 @@ import bash from "../assets/icons8-bash-96.png";
 import linux from "../assets/icons8-linux-96.png";
 import nginx from "../assets/icons8-nginx-96.png";
 import mongodb from "../assets/icons8-mongodb-96.png";
+import nodejs from "../assets/icons8-nodejs-96.png";
 import jenkins from "../assets/icons8-jenkins-96.png";
 import ansible from "../assets/icons8-ansible-96.png";
 import terraform from "../assets/icons8-terraform-96.png";
@@ -84,6 +85,10 @@ const TechStackData = [
     {
         imgsrc: angular,
         title: "Angular",
+    },
+    {
+        imgsrc: nodejs,
+        title: "NodeJs",
     },
     {
         imgsrc: redux,

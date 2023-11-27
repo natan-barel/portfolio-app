@@ -11,6 +11,7 @@
 
 .tech-stack-title {
     font-size: 2.4rem;
+    padding: 4rem 0 2rem 0;
 }
 
 .tech-stack-container {
@@ -22,7 +23,7 @@
 .tech-item {
     margin: 10px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
 
     &:hover {
