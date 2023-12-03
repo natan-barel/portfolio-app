@@ -1,14 +1,14 @@
 import React from "react";
-import HeroImg2 from "../components/HeroImg2";
-import PricingCard from "../components/PricingCard";
-import Work from "../components/Work";
+import HeroImg2 from "../components/Images/HeroImg2";
+import Work from "../components/Projects/Work";
+import TechStackContent from "../components/TechStack/TechStack";
 
 const Project = () => {
   return (
     <div>
       <HeroImg2 heading="PROJECTS" text="Some of my most recent works" />
       <Work />
-      {/* <PricingCard /> */}
+      <TechStackContent />
     </div>
   );
 };

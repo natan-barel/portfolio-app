@@ -1,5 +1,5 @@
-import pro1 from "../assets/tf-project-1-architecture-diagram.png";
-import pro2 from "../assets/prometheus-observability-stack-architecture-diagram.png";
+import pro1 from "../../assets/tf-project-1-architecture-diagram.png";
+import pro2 from "../../assets/prometheus-observability-stack-architecture-diagram.png";
 
 const ProjectCardData = [
   {
