@@ -34,12 +34,12 @@
         grid-gap: 5px;
     }
 
-    .logo img {
+    .tech-item .logo img {
         width: 50px;
         height: 50px;
     }
 
-    .logo .title {
+    .tech-item .title {
         font-size: 1.3rem;
     }
 }
