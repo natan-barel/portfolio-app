@@ -29,8 +29,12 @@
 }
 
 @media (max-width: 768px) {
+    .tech-item {
+        margin: 5px;
+    }
+
     .tech-stack-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 5px;
     }
 
@@ -40,6 +44,6 @@
     }
 
     .tech-item .title {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
