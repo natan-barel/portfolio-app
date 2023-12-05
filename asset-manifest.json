@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.0c93d8e6.css",
+    "main.css": "/portfolio-app/static/css/main.5cd2e13d.css",
     "main.js": "/portfolio-app/static/js/main.0bd60a85.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
@@ -8,11 +8,11 @@
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "index.html": "/portfolio-app/index.html",
-    "main.0c93d8e6.css.map": "/portfolio-app/static/css/main.0c93d8e6.css.map",
+    "main.5cd2e13d.css.map": "/portfolio-app/static/css/main.5cd2e13d.css.map",
     "main.0bd60a85.js.map": "/portfolio-app/static/js/main.0bd60a85.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c93d8e6.css",
+    "static/css/main.5cd2e13d.css",
     "static/js/main.0bd60a85.js"
   ]
 }
