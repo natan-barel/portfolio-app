@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="info">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Raanana</p>
+              <p>Tel Mond</p>
               <p>Israel</p>
             </div>
           </div>
@@ -49,10 +49,10 @@ const Footer = () => {
         <div className="right">
           <h4>About me</h4>
           <p>
-            This is me Natan Barel.
+            This is me - Natan Barel.
           </p>
           <p>
-            I enjoy discussing new Projects and Devops challenges.
+            Reach me out HERE:
           </p>
           <div className="social">
             <a href="https://www.facebook.com/natan.barel/">
