@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="header-title-container">
         <img className="profile-pic" src={profilepic}></img>
         <Link to="/">
-          <h1 className="header-title">Portfolio</h1>
+          <h1 className="header-title">Natan Barel - Portfolio</h1>
         </Link>
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
