@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.11ddc848.css",
-    "main.js": "/portfolio-app/static/js/main.226a3cda.js",
+    "main.js": "/portfolio-app/static/js/main.a5d3dd2e.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
@@ -9,10 +9,10 @@
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "index.html": "/portfolio-app/index.html",
     "main.11ddc848.css.map": "/portfolio-app/static/css/main.11ddc848.css.map",
-    "main.226a3cda.js.map": "/portfolio-app/static/js/main.226a3cda.js.map"
+    "main.a5d3dd2e.js.map": "/portfolio-app/static/js/main.a5d3dd2e.js.map"
   },
   "entrypoints": [
     "static/css/main.11ddc848.css",
-    "static/js/main.226a3cda.js"
+    "static/js/main.a5d3dd2e.js"
   ]
 }
