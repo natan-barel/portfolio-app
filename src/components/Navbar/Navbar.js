@@ -1,4 +1,5 @@
 import "./NavbarStyles.css";
+import profilepic from "../../assets/profile-pic.jpeg";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -22,9 +23,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
-        <h1>Portfolio</h1>
-      </Link>
+      <div className="header-title-container">
+        <img className="profile-pic" src={profilepic}></img>
+        <Link to="/">
+          <h1 className="header-title">Portfolio</h1>
+        </Link>
+      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/" onClick={handleClick}>Home</Link>
