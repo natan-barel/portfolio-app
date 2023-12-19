@@ -2,11 +2,21 @@ import React from "react"
 import "./Resume.css"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
+import { AiOutlineDownload } from "react-icons/ai";
+// import pdf from "../../assets/NatanBarelResume.pdf";
 
 const Resume = () => {
   return (
     <div className='resume'>
       <div className='resume-container'>
+        <a
+          className="btn"
+          href={'pdf'}
+          target="_blank"
+        >
+          <AiOutlineDownload />
+          &nbsp; Download CV
+        </a>
         <div className='content-section'>
           <div className='resume-info'>
             <div className='resume-info-header'>
