@@ -2,6 +2,7 @@ import proj1 from "../../assets/tf-project-1-architecture-diagram.png";
 import proj2 from "../../assets/prometheus-observability-stack-architecture-diagram.png";
 import proj3 from "../../assets/Fault-Tolerant-Web-Hosting-on-Kubernetes.png";
 import proj4 from "../../assets/Single-Deployment-Using-Helm-and-K8s.png";
+import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png"
 
 
 const ProjectCardData = [
@@ -32,6 +33,12 @@ const ProjectCardData = [
     text: "Containerize and deploy a Web Application over a Kubernetes cluster using Helm chart",
     repo: "https://github.com/natan-barel/Single-Deployment-Using-Helm-and-K8s",
     view: ""
+  },
+  {
+    imgsrc: proj5,
+    title: "AWS - Deploy a Flask Application over AWS Using Elastic Beanstalk",
+    text: "deployment of an e-learning course catalog website (Flask application) using the AWS Elastic Beanstalk",
+    repo: "https://github.com/natan-barel/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk"
   }
 ];
 
