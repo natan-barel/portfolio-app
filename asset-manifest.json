@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.59eeb396.css",
-    "main.js": "/portfolio-app/static/js/main.b91feb6b.js",
+    "main.js": "/portfolio-app/static/js/main.81e05837.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
     "static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.png": "/portfolio-app/static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.2f8681665b8f6e59a6f1.png",
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
     "static/media/Single-Deployment-Using-Helm-and-K8s.png": "/portfolio-app/static/media/Single-Deployment-Using-Helm-and-K8s.4c6c3fa2eadbd7ee57b0.png",
+    "static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png": "/portfolio-app/static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.518a3ee8c8a376137e07.png",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "index.html": "/portfolio-app/index.html",
     "main.59eeb396.css.map": "/portfolio-app/static/css/main.59eeb396.css.map",
-    "main.b91feb6b.js.map": "/portfolio-app/static/js/main.b91feb6b.js.map"
+    "main.81e05837.js.map": "/portfolio-app/static/js/main.81e05837.js.map"
   },
   "entrypoints": [
     "static/css/main.59eeb396.css",
-    "static/js/main.b91feb6b.js"
+    "static/js/main.81e05837.js"
   ]
 }
