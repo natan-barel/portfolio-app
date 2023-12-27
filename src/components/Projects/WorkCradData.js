@@ -3,7 +3,7 @@ import proj2 from "../../assets/prometheus-observability-stack-architecture-diag
 import proj3 from "../../assets/Fault-Tolerant-Web-Hosting-on-Kubernetes.png";
 import proj4 from "../../assets/Single-Deployment-Using-Helm-and-K8s.png";
 import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png"
-
+import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png"
 
 const ProjectCardData = [
   {
@@ -37,8 +37,14 @@ const ProjectCardData = [
   {
     imgsrc: proj5,
     title: "AWS - Deploy a Flask Application over AWS Using Elastic Beanstalk",
-    text: "deployment of an e-learning course catalog website (Flask application) using the AWS Elastic Beanstalk",
+    text: "Deployment of an e-learning course catalog website (Flask application) using the AWS Elastic Beanstalk",
     repo: "https://github.com/natan-barel/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk"
+  },
+  {
+    imgsrc: proj6,
+    title: "Create Multiple Deployments Using Helm",
+    text: "Deployment of a Ruby on Rails (RoR) application on a Kubernetes cluster using Helm chart",
+    repo: "https://github.com/natan-barel/Create-Multiple-Deployments-Using-Helm"
   }
 ];
 
