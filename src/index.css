@@ -33,10 +33,15 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+
+  &:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
 }
 
+
 .btn-light {
-  /* background: rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #fff;
 }
