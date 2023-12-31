@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.59eeb396.css",
-    "main.js": "/portfolio-app/static/js/main.a625f120.js",
+    "main.css": "/portfolio-app/static/css/main.db7b7db0.css",
+    "main.js": "/portfolio-app/static/js/main.7704bffe.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
@@ -12,11 +12,11 @@
     "static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png": "/portfolio-app/static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.518a3ee8c8a376137e07.png",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "index.html": "/portfolio-app/index.html",
-    "main.59eeb396.css.map": "/portfolio-app/static/css/main.59eeb396.css.map",
-    "main.a625f120.js.map": "/portfolio-app/static/js/main.a625f120.js.map"
+    "main.db7b7db0.css.map": "/portfolio-app/static/css/main.db7b7db0.css.map",
+    "main.7704bffe.js.map": "/portfolio-app/static/js/main.7704bffe.js.map"
   },
   "entrypoints": [
-    "static/css/main.59eeb396.css",
-    "static/js/main.a625f120.js"
+    "static/css/main.db7b7db0.css",
+    "static/js/main.7704bffe.js"
   ]
 }
