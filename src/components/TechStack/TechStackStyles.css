@@ -30,12 +30,12 @@
 
 @media (max-width: 768px) {
     .tech-item {
-        margin: 5px;
+        margin: 3px;
     }
 
     .tech-stack-container {
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 5px;
+        grid-gap: 3px;
     }
 
     .tech-item .logo img {
@@ -44,6 +44,6 @@
     }
 
     .tech-item .title {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
