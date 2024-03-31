@@ -1,3 +1,4 @@
+import proj0 from "../../assets/terraform-cognito-rest-api.png";
 import proj1 from "../../assets/tf-project-1-architecture-diagram.png";
 import proj2 from "../../assets/prometheus-observability-stack-architecture-diagram.png";
 import proj3 from "../../assets/Fault-Tolerant-Web-Hosting-on-Kubernetes.png";
@@ -6,6 +7,13 @@ import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elasti
 import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png"
 
 const ProjectCardData = [
+  {
+    imgsrc: proj0,
+    title: "AWS - Terraform Cognito Rest API",
+    text: "Setup a system that allows users to access a frontend Web app through AWS API Gateway, authenticate using AWS Cognito, and interact with various AWS services such as DynamoDB, S3 Bucket, Lambda function, and CloudWatch.",
+    repo: "https://github.com/natan-barel/terraform-cognito-rest-api",
+    view: "",
+  },
   {
     imgsrc: proj1,
     title: "AWS - Terraform Project 1",
