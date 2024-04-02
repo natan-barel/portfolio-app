@@ -3,8 +3,9 @@ import proj1 from "../../assets/tf-project-1-architecture-diagram.png";
 import proj2 from "../../assets/prometheus-observability-stack-architecture-diagram.png";
 import proj3 from "../../assets/Fault-Tolerant-Web-Hosting-on-Kubernetes.png";
 import proj4 from "../../assets/Single-Deployment-Using-Helm-and-K8s.png";
-import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png"
-import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png"
+import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png";
+import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png";
+import proj7 from "../../assets/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png";
 
 const ProjectCardData = [
   {
@@ -26,6 +27,13 @@ const ProjectCardData = [
     title: "AWS - Prometheus Observability Stack Using Docker",
     text: "Prometheus, Grafana & Alert Manager using Terraform, Docker and Docker Compose",
     repo: "https://github.com/natan-barel/prometheus-observability-stack",
+    view: "",
+  },
+  {
+    imgsrc: proj7,
+    title: "AWS - Video to Audio Python Microservices App on Kubernetes (EKS)",
+    text: "Converting mp4 videos to mp3 in a microservices architecture, using AWS services (EKS)",
+    repo: "https://github.com/natan-barel/Video-to-Audio-Python-Microservices-App-on-Kubernetes",
     view: "",
   },
   {
