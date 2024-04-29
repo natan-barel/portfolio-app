@@ -4,6 +4,7 @@ const Card = (props) => {
   return (
     <div className='box'>
       <div className='title_content'>
+        <img src={props.logo} className="logo"></img>
         <div className='title'>
           <h2>{props.role}</h2>
           <h3>{props.title}</h3>

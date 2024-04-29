@@ -24,7 +24,7 @@ const Resume = () => {
             </div>
             <div className='content'>
               {ResumeApi.filter((val) => val.category === "education").map((val, index) => {
-                return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} list={val.list} />
+                return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} list={val.list} logo={val.logo} />
               })}
             </div>
           </div>
@@ -34,7 +34,7 @@ const Resume = () => {
             </div>
             <div className='content'>
               {ResumeApi.filter((val) => val.category === "experience").map((val, index) => {
-                return <Card key={index} role={val.role} description={val.description} title={val.title} year={val.year} rate={val.rate} desc={val.desc} list={val.list} />
+                return <Card key={index} role={val.role} description={val.description} title={val.title} year={val.year} rate={val.rate} desc={val.desc} list={val.list} logo={val.logo} />
               })}
             </div>
           </div>
