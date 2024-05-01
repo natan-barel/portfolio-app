@@ -51,11 +51,10 @@
   margin: 2rem auto;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .card-container {
     max-width: 90%;
     margin: auto;
-
     grid-template-columns: 1fr;
   }
 }
