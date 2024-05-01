@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.14733686.css",
+    "main.css": "/portfolio-app/static/css/main.868d997d.css",
     "main.js": "/portfolio-app/static/js/main.ed43be8c.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
@@ -16,11 +16,11 @@
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "static/media/iitc_college_logo.jpeg": "/portfolio-app/static/media/iitc_college_logo.fb60774cd9a13509e5f1.jpeg",
     "index.html": "/portfolio-app/index.html",
-    "main.14733686.css.map": "/portfolio-app/static/css/main.14733686.css.map",
+    "main.868d997d.css.map": "/portfolio-app/static/css/main.868d997d.css.map",
     "main.ed43be8c.js.map": "/portfolio-app/static/js/main.ed43be8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.14733686.css",
+    "static/css/main.868d997d.css",
     "static/js/main.ed43be8c.js"
   ]
 }
