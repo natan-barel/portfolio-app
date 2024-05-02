@@ -1,12 +1,11 @@
-import proj1 from "../../assets/Trello-Clone-in-Angular-using-NgRx.png";
+import proj1 from "../../assets/Frontend-Mentor-Multi-Step-Form.jpg";
 
 const ProjectCardData = [
     {
         imgsrc: proj1,
-        title: "Trello Clone in Angular using NgRx",
-        text: "Sample mini project of trello clone using Angular, Ngrx and Material UI",
-        repo: "https://github.com/natan-barel/Trello-Clone-in-Angular-using-NgRx/",
-        view: "https://natan-barel.github.io/Trello-Clone-in-Angular-using-NgRx/",
+        title: "Multi Step Form in Angular using NgRx (WIP)",
+        text: "Sample mini project of Multi Step Form using Angular, Ngrx and Material UI",
+        repo: "https://github.com/natan-barel/Frontend-Mentor-Multi-step-Form/",
     }
 ];
 
