@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.00f0ea8d.css",
-    "main.js": "/portfolio-app/static/js/main.28ef2df6.js",
+    "main.js": "/portfolio-app/static/js/main.b44b168b.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
@@ -9,18 +9,18 @@
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
     "static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.png": "/portfolio-app/static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.2f8681665b8f6e59a6f1.png",
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
-    "static/media/Trello-Clone-in-Angular-using-NgRx.png": "/portfolio-app/static/media/Trello-Clone-in-Angular-using-NgRx.72f9358410c9bc3f7d54.png",
     "static/media/Single-Deployment-Using-Helm-and-K8s.png": "/portfolio-app/static/media/Single-Deployment-Using-Helm-and-K8s.4c6c3fa2eadbd7ee57b0.png",
     "static/media/Create-Multiple-Deployments-Using-Helm.png": "/portfolio-app/static/media/Create-Multiple-Deployments-Using-Helm.a829fa97f4911a65a982.png",
     "static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png": "/portfolio-app/static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.518a3ee8c8a376137e07.png",
+    "static/media/Frontend-Mentor-Multi-Step-Form.jpg": "/portfolio-app/static/media/Frontend-Mentor-Multi-Step-Form.e8daa6a238adec5dc3ec.jpg",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "static/media/iitc_college_logo.jpeg": "/portfolio-app/static/media/iitc_college_logo.fb60774cd9a13509e5f1.jpeg",
     "index.html": "/portfolio-app/index.html",
     "main.00f0ea8d.css.map": "/portfolio-app/static/css/main.00f0ea8d.css.map",
-    "main.28ef2df6.js.map": "/portfolio-app/static/js/main.28ef2df6.js.map"
+    "main.b44b168b.js.map": "/portfolio-app/static/js/main.b44b168b.js.map"
   },
   "entrypoints": [
     "static/css/main.00f0ea8d.css",
-    "static/js/main.28ef2df6.js"
+    "static/js/main.b44b168b.js"
   ]
 }
