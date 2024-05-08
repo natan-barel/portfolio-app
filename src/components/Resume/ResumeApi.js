@@ -23,7 +23,7 @@ const ResumeApi = [
   {
     id: 3,
     category: "experience",
-    role: "Senior FrontEnd Engineer",
+    role: "Senior Software Engineer \ Devops",
     title: "Driivz",
     logo: driivz,
     description: "End-to-end EV Charging and Energy Management Solution",
