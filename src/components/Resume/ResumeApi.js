@@ -18,7 +18,11 @@ const ResumeApi = [
     category: "education",
     title: "Devops And AWS solutions Architect",
     year: "IITC (2023)",
-    logo: iitc
+    description: "800+ hours of hands-on lab and best practice projects crafting using latest CI/CD tools and methodologies.",
+    logo: iitc,
+    list: [
+      'Wrote automation scripts in Python & Shell (Bash).', 'Configured & Monitored AWS resources and services ensuring optimal cloud infrastructure.', 'Deployed and monitored infrastructure using Ansible and Terraform.', 'Set up CI/CD Pipeline using Jenkins and GitHub Actions.', 'Set up Docker images, enhancing automation and speeding up deployment processes.', 'Deployed scaled and managed Kubernetes clusters.', 'Effectively monitoring using Grafana and Prometheus.'
+    ]
   },
   {
     id: 3,

@@ -24,7 +24,7 @@ const Resume = () => {
             </div>
             <div className='content'>
               {ResumeApi.filter((val) => val.category === "education").map((val, index) => {
-                return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} list={val.list} logo={val.logo} />
+                return <Card key={index} title={val.title} year={val.year} rate={val.rate} description={val.description} desc={val.desc} list={val.list} logo={val.logo} />
               })}
             </div>
           </div>

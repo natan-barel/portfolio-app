@@ -13,15 +13,15 @@ const Card = (props) => {
         </div>
       </div>
       <hr />
+      {props?.desc &&
+        <p>{props.desc}</p>
+      }
       {props.list?.length > 0 &&
         <ul className="resume-list">
           {props.list?.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
-      }
-      {props?.desc &&
-        <p>{props.desc}</p>
       }
     </div>
   )

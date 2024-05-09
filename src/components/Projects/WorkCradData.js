@@ -17,7 +17,7 @@ const ProjectCardData = [
   },
   {
     imgsrc: proj1,
-    title: "AWS - Terraform Project 1",
+    title: "AWS - Terraform Jenkins And Ansible",
     text: "Setup jenkins on Amazon-linux EC2 instance (under VPC) using Terraform and Ansible",
     repo: "https://github.com/natan-barel/Terraform-Project-1/",
     view: "",
