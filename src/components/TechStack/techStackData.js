@@ -10,6 +10,8 @@ import git from "../../assets/icons8-git-96.png";
 import github from "../../assets/icons8-github-96.png";
 import aws from "../../assets/icons8-amazon-web-services-96.png";
 import kubernetes from "../../assets/icons8-kubernetes-96.png";
+import grafana from "../../assets/icons8-grafana-96.png";
+import prometheus from "../../assets/icons8-prometheus-96.png";
 import python from "../../assets/icons8-python-96.png";
 import webpack from "../../assets/icons8-webpack-96.png";
 import bash from "../../assets/icons8-bash-96.png";
@@ -53,6 +55,14 @@ const TechStackData = [
     {
         imgsrc: ansible,
         title: "Ansible"
+    },
+    {
+        imgsrc: grafana,
+        title: "grafana"
+    },
+    {
+        imgsrc: prometheus,
+        title: "prometheus"
     },
     {
         imgsrc: python,
