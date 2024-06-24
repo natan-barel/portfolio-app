@@ -1,17 +1,33 @@
-import React from "react"
+
 import "./Resume.css"
+import React , {useEffect} from "react"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
 import { AiOutlineDownload } from "react-icons/ai";
-// import pdf from "../../assets/NatanBarelResume.pdf";
+import pdf from "../../assets/NatanBarelCV.pdf";
 
 const Resume = () => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+    script.async = true;
+    script.defer = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className='resume'>
       <div className='resume-container'>
         <a
           className="btn"
-          href={'pdf'}
+          href={pdf}
           target="_blank"
         >
           <AiOutlineDownload />
@@ -39,6 +55,14 @@ const Resume = () => {
             </div>
           </div>
         </div>
+        <a
+          className="btn"
+          href={pdf}
+          target="_blank"
+        >
+          <AiOutlineDownload />
+          &nbsp; Download CV
+        </a>
       </div>
     </div>
   )
