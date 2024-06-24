@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.3c98bb23.css",
-    "main.js": "/portfolio-app/static/js/main.6733f32a.js",
+    "main.js": "/portfolio-app/static/js/main.01639f6d.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
@@ -9,6 +9,7 @@
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
     "static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.png": "/portfolio-app/static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.2f8681665b8f6e59a6f1.png",
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
+    "static/media/NatanBarelCV.pdf": "/portfolio-app/static/media/NatanBarelCV.4c10fac9c3f4b766f346.pdf",
     "static/media/Single-Deployment-Using-Helm-and-K8s.png": "/portfolio-app/static/media/Single-Deployment-Using-Helm-and-K8s.4c6c3fa2eadbd7ee57b0.png",
     "static/media/Create-Multiple-Deployments-Using-Helm.png": "/portfolio-app/static/media/Create-Multiple-Deployments-Using-Helm.a829fa97f4911a65a982.png",
     "static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png": "/portfolio-app/static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.518a3ee8c8a376137e07.png",
@@ -20,10 +21,10 @@
     "static/media/revicons.woff": "/portfolio-app/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio-app/index.html",
     "main.3c98bb23.css.map": "/portfolio-app/static/css/main.3c98bb23.css.map",
-    "main.6733f32a.js.map": "/portfolio-app/static/js/main.6733f32a.js.map"
+    "main.01639f6d.js.map": "/portfolio-app/static/js/main.01639f6d.js.map"
   },
   "entrypoints": [
     "static/css/main.3c98bb23.css",
-    "static/js/main.6733f32a.js"
+    "static/js/main.01639f6d.js"
   ]
 }
