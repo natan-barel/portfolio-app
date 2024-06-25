@@ -22,13 +22,40 @@ const Resume = () => {
     };
   }, []);
 
+  const handleDownload = () => {
+    // Replace with the URL of your PDF file
+    const pdfUrl = 'https://pdfobject.com/pdf/sample.pdf';
+
+    fetch(pdfUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        // Create a new blob URL pointing to the ObjectURL of the blob content
+        const blobUrl = URL.createObjectURL(blob);
+
+        // Create a link element
+        const a = document.createElement('a');
+        a.href = blobUrl;
+        a.download = 'filename.pdf'; // Specify the filename you want
+        a.click();
+
+        // Clean up
+        URL.revokeObjectURL(blobUrl);
+      })
+      .catch(error => {
+        console.error('Error fetching the PDF file', error);
+        // Handle error as needed
+      });
+    }
+  
   return (
     <div className='resume'>
       <div className='resume-container'>
+      {/* <button className="btn" onClick={handleDownload}><AiOutlineDownload />Download CV</button> */}
         <a
           className="btn"
           href={pdf}
           target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineDownload />
           &nbsp; Download CV
@@ -59,6 +86,7 @@ const Resume = () => {
           className="btn"
           href={pdf}
           target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineDownload />
           &nbsp; Download CV

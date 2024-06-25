@@ -1,7 +1,7 @@
 import "./NavbarStyles.css";
 import profilepic from "../../assets/profile-pic.jpeg";
 
-import React, { useState } from "react";
+import React, { useState , useEffect , useRef } from "react";
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -10,21 +10,21 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  const [color, setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
+  const headerRef = useRef(null);
 
-  window.addEventListener("scroll", changeColor);
+ const changeColor = () => {
+      (window.scrollY >= 100) ?  headerRef.current.style.backgroundColor = 'rgba(0, 0, 0, 0.85)' :  headerRef.current.style.backgroundColor = 'transparent';
+ };
+
+ useEffect(() => {
+      window.addEventListener('scroll', changeColor);
+      return () => window.removeEventListener('scroll', changeColor);
+ }, []);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className='header' ref={headerRef}>
       <div className="header-title-container">
-        <img className="profile-pic" src={profilepic}></img>
+        <img className="profile-pic" src={profilepic} alt="profile-pic"></img>
         <Link to="/">
           <h1 className="header-title">Natan Barel - Portfolio</h1>
         </Link>
