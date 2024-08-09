@@ -3,6 +3,7 @@ import ariel from "../../assets/ariel_logo.jpeg";
 import consist from "../../assets/consist_logo.jpeg";
 import iitc from "../../assets/iitc_college_logo.jpeg";
 import ngSoft from "../../assets/ngSoft_logo.jpeg";
+import cloudZone from "../../assets/cloudzone_logo.jpeg";
 
 const ResumeApi = [
   {
@@ -27,15 +28,24 @@ const ResumeApi = [
   {
     id: 3,
     category: "experience",
-    role: "Senior Software Engineer & Devops",
-    title: "Driivz",
-    logo: driivz,
-    description: "End-to-end EV Charging and Energy Management Solution",
-    year: "(2021 - present)",
-    list: ['Development of complex and scalable web-based large enterprise application from scratch in Angular with Typescript, NgRx, RxJS and LESS.', 'Design and implement core features of SaaS application based on microservices.', 'Design, develop, test and deploy reusable features and core components, with an emphasis on scalability, performance and visual quality.', 'Create and maintain an advanced production ready build system using Gulp and ESlint configurations.', 'Create a CI/CD process utilizing Git, Webpack, Jenkins, Karma, Jasmine, Docker, K8s on AWS and on-premise – key driver for engineering excellence through constant improvement in processes, tools, and practices.']
+    role: "Cloud Operations Engineer",
+    title: "CloudZone",
+    logo: cloudZone,
+    description: "The leading multi-cloud reseller in Israel",
+    year: "(2024 - present)",
   },
   {
     id: 4,
+    category: "experience",
+    role: "Software Engineer",
+    title: "Driivz",
+    logo: driivz,
+    description: "End-to-end EV Charging and Energy Management Solution",
+    year: "(2021 - 2023)",
+    list: ['Development of complex and scalable web-based large enterprise application from scratch in Angular with Typescript, NgRx, RxJS and LESS.', 'Design and implement core features of SaaS application based on microservices.', 'Design, develop, test and deploy reusable features and core components, with an emphasis on scalability, performance and visual quality.', 'Create and maintain an advanced production ready build system using Gulp and ESlint configurations.', 'Create a CI/CD process utilizing Git, Webpack, Jenkins, Karma, Jasmine, Docker, K8s on AWS and on-premise – key driver for engineering excellence through constant improvement in processes, tools, and practices.']
+  },
+  {
+    id: 5,
     category: "experience",
     role: "FullStack Engineer",
     title: "NGSoft",
@@ -48,7 +58,7 @@ const ResumeApi = [
       'Maintenance of existing code and projects, debugging, integrating and tackling hard technical problems some at the architecture level, some at the code level and come up with solutions, according to customer needs.']
   },
   {
-    id: 5,
+    id: 6,
     category: "experience",
     role: "Integration Developer",
     title: "Consist",
