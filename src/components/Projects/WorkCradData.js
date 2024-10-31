@@ -30,13 +30,6 @@ const ProjectCardData = [
     view: "",
   },
   {
-    imgsrc: proj7,
-    title: "AWS - Video to Audio Python Microservices App on Kubernetes (EKS)",
-    text: "Converting mp4 videos to mp3 in a microservices architecture, using AWS services (EKS)",
-    repo: "https://github.com/natan-barel/Video-to-Audio-Python-Microservices-App-on-Kubernetes",
-    view: "",
-  },
-  {
     imgsrc: proj3,
     title: "Fault-Tolerant Web Hosting on Kubernetes",
     text: "Containerize and deploy a fault-tolerant Web Application using Docker and Kubernetes",
