@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.3c98bb23.css",
-    "main.js": "/portfolio-app/static/js/main.b750902d.js",
+    "main.js": "/portfolio-app/static/js/main.67081450.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
@@ -21,10 +21,10 @@
     "static/media/revicons.woff": "/portfolio-app/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio-app/index.html",
     "main.3c98bb23.css.map": "/portfolio-app/static/css/main.3c98bb23.css.map",
-    "main.b750902d.js.map": "/portfolio-app/static/js/main.b750902d.js.map"
+    "main.67081450.js.map": "/portfolio-app/static/js/main.67081450.js.map"
   },
   "entrypoints": [
     "static/css/main.3c98bb23.css",
-    "static/js/main.b750902d.js"
+    "static/js/main.67081450.js"
   ]
 }
