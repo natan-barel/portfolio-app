@@ -8,7 +8,7 @@ import React from "react";
 const Work = () => {
   return (
     <div className="work-container">
-      <h1 className="project-heading">DevOps Projects</h1>
+      <h1 className="project-heading">Cloud & DevOps Projects</h1>
       <div className="project-container">
         {WorkCradData.map((val, ind) => {
           return (
@@ -23,7 +23,7 @@ const Work = () => {
           );
         })}
       </div>
-      <h1 className="project-heading">Web Projects</h1>
+      {/* <h1 className="project-heading">Web Projects</h1>
       <div className="project-container">
         {WebCardData.map((val, ind) => {
           return (
@@ -37,7 +37,7 @@ const Work = () => {
             />
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
