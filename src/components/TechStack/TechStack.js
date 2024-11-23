@@ -1,27 +1,17 @@
 import "./TechStackStyles.css";
 
 import React from "react";
-import TechCard from "./TechCard";
+import TechCarousel from './TechCarousel';
 import TechStackData from "./techStackData";
 
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-
 const TechStackContent = () => {
+    const chunkSize = Math.ceil(TechStackData.length / 3);
     return (
         <div className="tech-stack">
             <h1 className="tech-stack-title">My Tech Stack</h1>
-            <div className="tech-stack-container">
-                {TechStackData.map((val, ind) => {
-                    return (
-                        <TechCard
-                            key={ind}
-                            imgsrc={val.imgsrc}
-                            title={val.title}
-                        />
-                    )
-                })}
-            </div>
+            <TechCarousel data={TechStackData.slice(0, chunkSize)}></TechCarousel>
+            <TechCarousel data={TechStackData.slice(chunkSize, chunkSize * 2)} rtl={true}></TechCarousel>
+            <TechCarousel data={TechStackData.slice(chunkSize * 2)}></TechCarousel>
         </div>
     );
 };
