@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.3c98bb23.css",
-    "main.js": "/portfolio-app/static/js/main.7018a968.js",
+    "main.css": "/portfolio-app/static/css/main.88dcc3f3.css",
+    "main.js": "/portfolio-app/static/js/main.7146f482.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
@@ -16,15 +16,16 @@
     "static/media/Frontend-Mentor-Multi-Step-Form.jpg": "/portfolio-app/static/media/Frontend-Mentor-Multi-Step-Form.e8daa6a238adec5dc3ec.jpg",
     "static/media/react2.webp": "/portfolio-app/static/media/react2.8aa659a4278a7132e6f4.webp",
     "static/media/iitc_college_logo.jpeg": "/portfolio-app/static/media/iitc_college_logo.fb60774cd9a13509e5f1.jpeg",
-    "static/media/revicons.eot": "/portfolio-app/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/portfolio-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/portfolio-app/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/slick.svg": "/portfolio-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
-    "main.3c98bb23.css.map": "/portfolio-app/static/css/main.3c98bb23.css.map",
-    "main.7018a968.js.map": "/portfolio-app/static/js/main.7018a968.js.map"
+    "main.88dcc3f3.css.map": "/portfolio-app/static/css/main.88dcc3f3.css.map",
+    "main.7146f482.js.map": "/portfolio-app/static/js/main.7146f482.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c98bb23.css",
-    "static/js/main.7018a968.js"
+    "static/css/main.88dcc3f3.css",
+    "static/js/main.7146f482.js"
   ]
 }
