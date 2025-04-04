@@ -1,0 +1,24 @@
+.certifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.certification-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.certification-item img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.certification-item a {
+    color: #007bff;
+    text-decoration: none;
+}
