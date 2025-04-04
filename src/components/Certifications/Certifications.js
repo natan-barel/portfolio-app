@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import './Certifications.css';
 
 const Certifications = () => {
     const [badges, setBadges] = useState([]);
 
     useEffect(() => {
-        fetch('https://www.credly.com/users/natan-barel/badges.json')
+        fetch(`${process.env.PUBLIC_URL}/data/badges.json`)
             .then((res) => res.json())
             .then((data) => setBadges(data.data))
-            .catch((err) => console.error('Failed to fetch certifications:', err));
+            .catch((err) => console.error('Failed to load local badges:', err));
     }, []);
 
     return (
         <section id="certifications">
-            <h1>Certifications</h1>
+            <h2>Certifications</h2>
             <div className="certifications-list">
                 {badges.map((badge) => (
                     <div key={badge.id} className="certification-item">
