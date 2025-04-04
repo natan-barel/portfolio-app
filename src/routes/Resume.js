@@ -7,8 +7,8 @@ const MyResume = () => {
     return (
         <div>
             <HeroImg2 heading="6+ YEARS OF EXPERIENCE" text="My Resume" />
-            <Resume />
             <Certifications />
+            <Resume />
         </div>
     );
 };
