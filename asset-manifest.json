@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.e95fad8b.css",
-    "main.js": "/portfolio-app/static/js/main.7842e4a5.js",
+    "main.js": "/portfolio-app/static/js/main.d610a0c8.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/Natan_Barel_Resume.pdf": "/portfolio-app/static/media/Natan_Barel_Resume.44824dcb3b3163e70b67.pdf",
     "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
     "static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.png": "/portfolio-app/static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.2f8681665b8f6e59a6f1.png",
     "static/media/tf-project-1-architecture-diagram.png": "/portfolio-app/static/media/tf-project-1-architecture-diagram.ea8a027c6aa9d64bbf95.png",
-    "static/media/NatanBarelCV.pdf": "/portfolio-app/static/media/NatanBarelCV.4c10fac9c3f4b766f346.pdf",
     "static/media/Single-Deployment-Using-Helm-and-K8s.png": "/portfolio-app/static/media/Single-Deployment-Using-Helm-and-K8s.4c6c3fa2eadbd7ee57b0.png",
     "static/media/Create-Multiple-Deployments-Using-Helm.png": "/portfolio-app/static/media/Create-Multiple-Deployments-Using-Helm.a829fa97f4911a65a982.png",
     "static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png": "/portfolio-app/static/media/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.518a3ee8c8a376137e07.png",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
     "main.e95fad8b.css.map": "/portfolio-app/static/css/main.e95fad8b.css.map",
-    "main.7842e4a5.js.map": "/portfolio-app/static/js/main.7842e4a5.js.map"
+    "main.d610a0c8.js.map": "/portfolio-app/static/js/main.d610a0c8.js.map"
   },
   "entrypoints": [
     "static/css/main.e95fad8b.css",
-    "static/js/main.7842e4a5.js"
+    "static/js/main.d610a0c8.js"
   ]
 }
