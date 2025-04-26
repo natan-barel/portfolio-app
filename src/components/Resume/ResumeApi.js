@@ -33,6 +33,14 @@ const ResumeApi = [
     logo: cloudZone,
     description: "The leading multi-cloud reseller in Israel",
     year: "(2024 - present)",
+    list: [
+      "Operated and maintained AWS cloud infrastructure, ensuring availability, scalability, and performance across multiple accounts and regions.",
+      "Automated provisioning, deployment, and configuration of AWS services using CloudFormation, Terraform, and AWS CLI.",
+      "Managed EC2, S3, RDS, Lambda, CloudFront, VPC, and IAM configurations to support production and development environments.",
+      "Implemented and maintained monitoring solutions using Amazon CloudWatch, CloudTrail, and third-party integrations like Datadog.",
+      "Handled incident management, troubleshooting AWS services issues, and performing root cause analysis to prevent recurrence.",
+      "Developed and enforced AWS security best practices, including IAM policies, encryption (KMS), VPC security groups, and resource access control."
+    ]
   },
   {
     id: 4,
@@ -42,7 +50,16 @@ const ResumeApi = [
     logo: driivz,
     description: "End-to-end EV Charging and Energy Management Solution",
     year: "(2021 - 2023)",
-    list: ['Development of complex and scalable web-based large enterprise application from scratch in Angular with Typescript, NgRx, RxJS and LESS.', 'Design and implement core features of SaaS application based on microservices.', 'Design, develop, test and deploy reusable features and core components, with an emphasis on scalability, performance and visual quality.', 'Create and maintain an advanced production ready build system using Gulp and ESlint configurations.', 'Create a CI/CD process utilizing Git, Webpack, Jenkins, Karma, Jasmine, Docker, K8s on AWS and on-premise – key driver for engineering excellence through constant improvement in processes, tools, and practices.']
+    list: [
+      "Developed a scalable, web-based enterprise dashboard application from scratch using Angular, TypeScript, NGRX, RXJS, and LESS, integrating multiple 3rd-party libraries for enhanced functionality.",
+      "Designed and implemented core SaaS features based on microservices architecture, focusing on scalability, resilience, and performance optimization.",
+      "Led efforts to build and maintain production-grade CI/CD pipelines using Git, Webpack, Jenkins, Karma, and Jasmine, ensuring fast, reliable, and automated deployments.",
+      "Introduced Docker containerization to streamline development, testing, and production environments, significantly reducing environment drift and deployment issues.",
+      "Supported Kubernetes (K8s) deployments on AWS and on-premise clusters, contributing to operational excellence and improving system scalability and reliability.",
+      "Created and maintained advanced build automation systems using Gulp, integrating static analysis tools like ESLint to enforce code quality and consistency.",
+      "Collaborated closely with DevOps and cloud teams to optimize AWS cloud resources, enhance deployment strategies, and implement Infrastructure-as-Code best practices.",
+      "Championed initiatives for engineering excellence by continuously improving development workflows, build systems, deployment automation, and monitoring practices."
+    ]
   },
   {
     id: 5,
@@ -51,11 +68,15 @@ const ResumeApi = [
     title: "NGSoft",
     logo: ngSoft,
     year: "(2019 - 2021)",
-    list: ['Build large-scale, high-volume complex web applications from scratch using framework such as Angular (7-10)',
-      'Development of Secure REST API with NodeJs , Typescript and MongoDB.',
-      'Design, develop, test and deploy high traffic reusable features and components, with an emphasis on scalability and performance that drove complex web applications.',
-      'Translate product & business requirements into working solutions, working closely with company leadership, product managers, UX designers to architect, prioritize and deliver great software experience.',
-      'Maintenance of existing code and projects, debugging, integrating and tackling hard technical problems some at the architecture level, some at the code level and come up with solutions, according to customer needs.']
+    list: [
+      "Built large-scale, high-volume web applications from the ground up using Angular (v7–v10), focusing on scalability, maintainability, and performance under heavy traffic conditions.",
+      "Developed secure, scalable REST APIs using Node.js, TypeScript, and MongoDB, applying security best practices and ensuring operational resilience.",
+      "Designed, developed, tested, and deployed reusable application components with a focus on high availability, cloud scalability, and fault tolerance.",
+      "Collaborated closely with leadership, product managers, UX designers, and architects to prioritize technical solutions aligned with business goals and operational requirements.",
+      "Integrated cloud-native practices into application design, including API security, scalable database management, and resilient architecture patterns.",
+      "Maintained and optimized existing codebases, handled advanced debugging, and tackled complex architecture and infrastructure challenges to meet evolving customer needs.",
+      "Improved deployment efficiency and production reliability by introducing best practices around CI/CD pipelines, automated testing, and cloud infrastructure optimization (AWS-based hosting and MongoDB cloud services)."
+    ]
   },
   {
     id: 6,

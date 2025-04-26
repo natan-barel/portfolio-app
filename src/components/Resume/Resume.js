@@ -1,10 +1,10 @@
 
 import "./Resume.css"
-import React , {useEffect} from "react"
+import React, { useEffect } from "react"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../assets/NatanBarelCV.pdf";
+import pdf from "../../assets/Natan_Barel_Resume.pdf";
 
 const Resume = () => {
 
@@ -45,12 +45,12 @@ const Resume = () => {
         console.error('Error fetching the PDF file', error);
         // Handle error as needed
       });
-    }
-  
+  }
+
   return (
     <div className='resume'>
       <div className='resume-container'>
-      {/* <button className="btn" onClick={handleDownload}><AiOutlineDownload />Download CV</button> */}
+        {/* <button className="btn" onClick={handleDownload}><AiOutlineDownload />Download CV</button> */}
         <a
           className="btn"
           href={pdf}
