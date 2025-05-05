@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.e95fad8b.css",
-    "main.js": "/portfolio-app/static/js/main.d610a0c8.js",
+    "main.css": "/portfolio-app/static/css/main.ecb646b1.css",
+    "main.js": "/portfolio-app/static/js/main.2d9b2ef2.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Natan_Barel_Resume.pdf": "/portfolio-app/static/media/Natan_Barel_Resume.44824dcb3b3163e70b67.pdf",
-    "static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png": "/portfolio-app/static/media/Video-to-Audio-Python-Microservices-App-on-Kubernetes.510b7619b881220f9b1c.png",
+    "static/media/ecs-terraform-pokemon-app.png": "/portfolio-app/static/media/ecs-terraform-pokemon-app.ac2307f9b9d32ab6b0e0.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.ttf": "/portfolio-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
-    "main.e95fad8b.css.map": "/portfolio-app/static/css/main.e95fad8b.css.map",
-    "main.d610a0c8.js.map": "/portfolio-app/static/js/main.d610a0c8.js.map"
+    "main.ecb646b1.css.map": "/portfolio-app/static/css/main.ecb646b1.css.map",
+    "main.2d9b2ef2.js.map": "/portfolio-app/static/js/main.2d9b2ef2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e95fad8b.css",
-    "static/js/main.d610a0c8.js"
+    "static/css/main.ecb646b1.css",
+    "static/js/main.2d9b2ef2.js"
   ]
 }
