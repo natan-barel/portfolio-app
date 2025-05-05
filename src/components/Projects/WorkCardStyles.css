@@ -52,9 +52,6 @@
   padding: 1rem 0;
 }
 
-.pro-details {
-  margin-top: auto;
-}
 
 .pro-details p {
   padding-bottom: 1rem;
@@ -66,6 +63,7 @@
   display: flex;
   justify-content: space-around;
   padding: 0.5rem 0;
+  margin-top: auto;
 }
 
 .pro-btns .btn {

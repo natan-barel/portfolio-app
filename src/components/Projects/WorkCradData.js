@@ -5,7 +5,7 @@ import proj3 from "../../assets/Fault-Tolerant-Web-Hosting-on-Kubernetes.png";
 import proj4 from "../../assets/Single-Deployment-Using-Helm-and-K8s.png";
 import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png";
 import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png";
-import proj7 from "../../assets/Video-to-Audio-Python-Microservices-App-on-Kubernetes.png";
+import proj7 from "../../assets/ecs-terraform-pokemon-app.png";
 
 const ProjectCardData = [
   {
@@ -13,6 +13,13 @@ const ProjectCardData = [
     title: "AWS - Terraform Cognito Rest API",
     text: "Setup a system that allows users to access a frontend Web app through AWS API Gateway, authenticate using AWS Cognito, and interact with various AWS services such as DynamoDB, S3 Bucket, Lambda function, and CloudWatch.",
     repo: "https://github.com/natan-barel/terraform-cognito-rest-api",
+    view: "",
+  },
+  {
+    imgsrc: proj7,
+    title: "AWS - ECS Terraform Pokemon App",
+    text: "This project demonstrates a scalable Flask web application that displays random Pokémon. The application is deployed using AWS ECS Fargate and integrated with an Application Load Balancer (ALB) and Auto Scaling for high availability and performance. The infrastructure is managed using Terraform, ensuring a reproducible and efficient deployment process.",
+    repo: "https://github.com/natan-barel/ecs-terraform-pokemon-states",
     view: "",
   },
   {

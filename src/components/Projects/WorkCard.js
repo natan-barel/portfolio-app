@@ -11,16 +11,16 @@ const WorkCard = (props) => {
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>
-        <div className="pro-btns">
-          {props?.view && <a href={props.view} className="btn">
-            <MdPageview /> &nbsp;
-            View
-          </a>}
-          <a href={props.source} className="btn">
-            <BsGithub /> &nbsp;
-            Source
-          </a>
-        </div>
+      </div>
+      <div className="pro-btns">
+        {props?.view && <a href={props.view} className="btn">
+          <MdPageview /> &nbsp;
+          View
+        </a>}
+        <a href={props.source} className="btn">
+          <BsGithub /> &nbsp;
+          Source
+        </a>
       </div>
     </div>
   );
