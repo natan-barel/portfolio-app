@@ -1,4 +1,5 @@
 {
+  "id": "/portfolio-app/",
   "short_name": "Natan Barel - Software and DevOps Engineer",
   "name": "Natan Barel - Software and DevOps Engineer",
   "icons": [
@@ -22,5 +23,12 @@
   "scope": "/portfolio-app/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "screenshots": [
+    {
+      "src": "natan-barel.github.io_portfolio-app_.png",
+      "type": "image/png",
+      "sizes": "1280x720"
+    }
+  ]
 }
