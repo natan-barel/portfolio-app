@@ -26,10 +26,17 @@
   "background_color": "#ffffff",
   "screenshots": [
     {
-      "src": "natan-barel.github.io_portfolio-app_.png",
+      "src": "screenshot-desktop.png",
       "type": "image/png",
       "sizes": "1280x720",
       "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-mobile.png",
+      "type": "image/png",
+      "sizes": "375x667",
+      "form_factor": "narrow",
+      "platform": "play"
     }
   ]
 }
