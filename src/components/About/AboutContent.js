@@ -11,25 +11,25 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-          A passionate Software and Devops Engineer from Israel | (B.sc.) Computer Science.
+          I’m a Cloud Operations and DevOps Engineer from Israel, with a B.Sc. in Computer Science and over 6 years of hands-on experience in software development, cloud infrastructure, and automation.
         </p>
         <p>
-          With over six years of dynamic experience in the tech industry, I pride myself on being a versatile software developer with a passion for problem-solving and innovation. My journey has exposed me to various programming languages and technologies including JavaScript (ES6), TypeScript, NodeJs, Bash, Python, MongoDB, K8s, Terraform, Ansible, AWS, Angular, ReactJS and many more. Whether developing for cloud or on-premise, I have consistently delivered high-quality solutions tailored to specific needs.
+          My career began in full-stack development, where I built scalable web applications using modern JavaScript frameworks like Angular and React. Over time, I transitioned into DevOps and Cloud Engineering, where I now focus on designing, automating, and operating resilient cloud environments — primarily on AWS.
         </p>
         <p>
-          With a strong commitment to continuous learning and a keen understanding of automation, networking, integration, deployment pipelines,
-
-          cloud and infrastructure as code, I am eager to deliver seamless, scalable solutions.
+          I bring a versatile technical stack that spans JavaScript, TypeScript, Node.js, Python, Bash, MongoDB, Kubernetes, Terraform, Ansible, and CI/CD tools like Jenkins and GitHub Actions. Whether deploying to the cloud or managing infrastructure as code, I strive to build systems that are stable, scalable, and easy to maintain.
         </p>
         <p>
-          By combining my software engineering background with a strong proficiency in DevOps methodologies, Cloud environment and CI/CD
-
-          tools, I am dedicated to fostering collaboration across teams and optimizing software delivery practices for enhanced product performance and user satisfaction.
+          I work daily with AWS services, automating provisioning using CloudFormation and Terraform, managing workloads across EC2, Lambda, S3, RDS, and VPC, and integrating observability with CloudWatch, CloudTrail, and Datadog. I also write Python-based Lambda functions for automation and operational tooling.
         </p>
         <p>
-          In my extensive engagements with AWS, I've undertaken comprehensive roles that span from the nascent stage of design to robust implementation, ensuring projects are created and thrive in the real world. My commitment to continuous improvement is reflected in the diligent refinements I bring – whether it’s rectifying bugs, refactoring legacy systems, or breathing fresh life into dated code.
-
-          I remain committed to integrating cutting-edge techniques with proven methodologies in an ever-evolving tech landscape, driving personal and organizational growth. I'm always eager to collaborate with like-minded professionals and forward-thinking organizations to bring the next big idea to life.
+          I’m passionate about clean architecture, automation, and improving software delivery through collaborative DevOps practices. I enjoy bridging the gap between development and operations to help teams move faster with confidence.
+        </p>
+        <p>
+          I’m always exploring new technologies and best practices to stay ahead in an ever-evolving cloud landscape. If you’re building something impactful and need a cloud-savvy engineer who understands both code and infrastructure — I’d love to connect.
+        </p>
+        <p>
+          Feel free to reach out if you’d like to discuss cloud engineering, DevOps, or any exciting projects you’re working on!
         </p>
         <Link to="/contact">
           <button className="btn">Contact</button>
