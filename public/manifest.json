@@ -28,7 +28,8 @@
     {
       "src": "natan-barel.github.io_portfolio-app_.png",
       "type": "image/png",
-      "sizes": "1280x720"
+      "sizes": "1280x720",
+      "form_factor": "wide"
     }
   ]
 }
