@@ -8,7 +8,7 @@ import React2 from "../../assets/react2.webp";
 const AboutContent = () => {
   return (
     <div className="about">
-      <div className="left">
+      <div className="about-left">
         <h1>Who Am I?</h1>
         <p>
           I’m a Cloud Operations and DevOps Engineer from Israel, with a B.Sc. in Computer Science and over 6 years of hands-on experience in software development, cloud infrastructure, and automation.
@@ -39,7 +39,7 @@ const AboutContent = () => {
         </Link>
       </div>
 
-      <div className="right">
+      <div className="about-right">
         <div className="img-container">
           <div className="img-stack top">
             <img src={React1} className="img" alt="true" />
