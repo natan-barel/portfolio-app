@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.ecb646b1.css",
-    "main.js": "/portfolio-app/static/js/main.93e78ef5.js",
+    "main.css": "/portfolio-app/static/css/main.8223a3c7.css",
+    "main.js": "/portfolio-app/static/js/main.a0815750.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Natan_Barel_Resume.pdf": "/portfolio-app/static/media/Natan_Barel_Resume.694abc605a4f9333b11b.pdf",
     "static/media/ecs-terraform-pokemon-app.png": "/portfolio-app/static/media/ecs-terraform-pokemon-app.ac2307f9b9d32ab6b0e0.png",
@@ -21,11 +21,11 @@
     "static/media/slick.ttf": "/portfolio-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
-    "main.ecb646b1.css.map": "/portfolio-app/static/css/main.ecb646b1.css.map",
-    "main.93e78ef5.js.map": "/portfolio-app/static/js/main.93e78ef5.js.map"
+    "main.8223a3c7.css.map": "/portfolio-app/static/css/main.8223a3c7.css.map",
+    "main.a0815750.js.map": "/portfolio-app/static/js/main.a0815750.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecb646b1.css",
-    "static/js/main.93e78ef5.js"
+    "static/css/main.8223a3c7.css",
+    "static/js/main.a0815750.js"
   ]
 }
