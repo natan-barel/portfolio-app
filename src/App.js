@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import MyResume from "./routes/Resume";
+import ArticlesPage from "./routes/Articles";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
@@ -22,6 +23,7 @@ function App() {
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<MyResume />} />
+        <Route path="/articles" element={<ArticlesPage />} />
       </Routes>
       <Footer />
     </>
