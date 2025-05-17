@@ -23,7 +23,7 @@
 .article-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  padding: 1.5rem;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -34,6 +34,27 @@
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(248, 217, 15, 0.2);
   border-color: rgb(248, 217, 15);
+}
+
+.article-card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover .article-card-image img {
+  transform: scale(1.05);
+}
+
+.article-card-content {
+  padding: 1.5rem;
 }
 
 .article-card h3 {
@@ -48,9 +69,136 @@
   line-height: 1.5;
 }
 
+.article-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
 .article-date {
   color: rgb(248, 217, 15);
   font-size: 0.9rem;
+}
+
+.article-category {
+  background: rgba(248, 217, 15, 0.1);
+  color: rgb(248, 217, 15);
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+/* Article Content Styles */
+.article-content {
+  color: #fff;
+  padding: 1rem;
+}
+
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.article-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.article-meta {
+  display: flex;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.article-featured-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.article-featured-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.image-caption {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.article-section {
+  margin: 2rem 0;
+}
+
+.article-section h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.section-content {
+  line-height: 1.8;
+}
+
+.section-content p {
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.section-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.code-block {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.code-block code {
+  color: rgb(248, 217, 15);
+  font-family: monospace;
+}
+
+.content-list {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.content-list li {
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.article-conclusion {
+  margin: 3rem 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.tag {
+  background: rgba(248, 217, 15, 0.1);
+  color: rgb(248, 217, 15);
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
 }
 
 /* Modal Styles */
