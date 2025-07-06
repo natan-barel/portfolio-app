@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.92278334.css",
-    "main.js": "/portfolio-app/static/js/main.4e2c87e3.js",
+    "main.js": "/portfolio-app/static/js/main.6878987e.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Natan_Barel_Resume.pdf": "/portfolio-app/static/media/Natan_Barel_Resume.402393ff5da0b5ea130f.pdf",
     "static/media/ecs-terraform-pokemon-app.png": "/portfolio-app/static/media/ecs-terraform-pokemon-app.ac2307f9b9d32ab6b0e0.png",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
     "main.92278334.css.map": "/portfolio-app/static/css/main.92278334.css.map",
-    "main.4e2c87e3.js.map": "/portfolio-app/static/js/main.4e2c87e3.js.map"
+    "main.6878987e.js.map": "/portfolio-app/static/js/main.6878987e.js.map"
   },
   "entrypoints": [
     "static/css/main.92278334.css",
-    "static/js/main.4e2c87e3.js"
+    "static/js/main.6878987e.js"
   ]
 }
