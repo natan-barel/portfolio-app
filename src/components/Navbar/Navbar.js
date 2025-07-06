@@ -39,9 +39,9 @@ const Navbar = () => {
         {/* <li>
           <Link to="/about">About</Link>
         </li> */}
-        <li>
+        {/* <li>
           <Link to="/articles" onClick={handleClick}>Articles</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/resume" onClick={handleClick}>Resume</Link>
         </li>
