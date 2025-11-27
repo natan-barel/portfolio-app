@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.92278334.css",
-    "main.js": "/portfolio-app/static/js/main.ce1c610c.js",
+    "main.js": "/portfolio-app/static/js/main.ac3123bb.js",
     "static/media/intro-bg.jpg": "/portfolio-app/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
     "static/media/Natan_Barel_Resume.pdf": "/portfolio-app/static/media/Natan_Barel_Resume.84575e5ea2d7b0804a03.pdf",
     "static/media/ecs-terraform-pokemon-app.png": "/portfolio-app/static/media/ecs-terraform-pokemon-app.ac2307f9b9d32ab6b0e0.png",
     "static/media/terraform-cognito-rest-api.png": "/portfolio-app/static/media/terraform-cognito-rest-api.5e7e832aeec6883a74db.png",
+    "static/media/WikiJS-ECS-Terraform.png": "/portfolio-app/static/media/WikiJS-ECS-Terraform.019b60b03616e11305bb.png",
     "static/media/prometheus-observability-stack-architecture-diagram.png": "/portfolio-app/static/media/prometheus-observability-stack-architecture-diagram.850698495c9586bf9d32.png",
     "static/media/react1.jpg": "/portfolio-app/static/media/react1.d63ca3791694cd8f6f49.jpg",
     "static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.png": "/portfolio-app/static/media/Fault-Tolerant-Web-Hosting-on-Kubernetes.2f8681665b8f6e59a6f1.png",
@@ -22,10 +23,10 @@
     "static/media/slick.woff": "/portfolio-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-app/index.html",
     "main.92278334.css.map": "/portfolio-app/static/css/main.92278334.css.map",
-    "main.ce1c610c.js.map": "/portfolio-app/static/js/main.ce1c610c.js.map"
+    "main.ac3123bb.js.map": "/portfolio-app/static/js/main.ac3123bb.js.map"
   },
   "entrypoints": [
     "static/css/main.92278334.css",
-    "static/js/main.ce1c610c.js"
+    "static/js/main.ac3123bb.js"
   ]
 }
