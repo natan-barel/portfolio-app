@@ -6,6 +6,7 @@ import proj4 from "../../assets/Single-Deployment-Using-Helm-and-K8s.png";
 import proj5 from "../../assets/Deploy-a-Flask-Application-over-AWS-Using-Elastic-Beanstalk.png";
 import proj6 from "../../assets/Create-Multiple-Deployments-Using-Helm.png";
 import proj7 from "../../assets/ecs-terraform-pokemon-app.png";
+import proj8 from "../../assets/WikiJS-ECS-Terraform.png";
 
 const ProjectCardData = [
   {
@@ -13,13 +14,6 @@ const ProjectCardData = [
     title: "AWS - Terraform Cognito Rest API",
     text: "Setup a system that allows users to access a frontend Web app through AWS API Gateway, authenticate using AWS Cognito, and interact with various AWS services such as DynamoDB, S3 Bucket, Lambda function, and CloudWatch.",
     repo: "https://github.com/natan-barel/terraform-cognito-rest-api",
-    view: "",
-  },
-  {
-    imgsrc: proj7,
-    title: "AWS - ECS Terraform Pokemon App",
-    text: "This project demonstrates a scalable Flask web application that displays random Pokémon. The application is deployed using AWS ECS Fargate and integrated with an Application Load Balancer (ALB) and Auto Scaling for high availability and performance. The infrastructure is managed using Terraform, ensuring a reproducible and efficient deployment process.",
-    repo: "https://github.com/natan-barel/ecs-terraform-pokemon-states",
     view: "",
   },
   {
@@ -61,6 +55,19 @@ const ProjectCardData = [
     title: "Create Multiple Deployments Using Helm",
     text: "Deployment of a Ruby on Rails (RoR) application on a Kubernetes cluster using Helm chart",
     repo: "https://github.com/natan-barel/Create-Multiple-Deployments-Using-Helm"
+  },
+  {
+    imgsrc: proj7,
+    title: "AWS - ECS Terraform Pokemon App",
+    text: "This project demonstrates a scalable Flask web application that displays random Pokémon. The application is deployed using AWS ECS Fargate and integrated with an Application Load Balancer (ALB) and Auto Scaling for high availability and performance. The infrastructure is managed using Terraform, ensuring a reproducible and efficient deployment process.",
+    repo: "https://github.com/natan-barel/ecs-terraform-pokemon-states",
+    view: "",
+  },
+  {
+    imgsrc: proj8,
+    title: "AWS - production-ready Wiki.js deployment on AWS using Terraform and ECS Fargate",
+    text: "This project demonstrates a production-ready deployment of Wiki.js on AWS using Terraform and ECS Fargate. The project includes a Terraform configuration for provisioning the necessary AWS resources, including an ECS cluster, a task definition, and a service. The Wiki.js application is deployed using a Docker image and is integrated with an Application Load Balancer (ALB) and Auto Scaling for high availability and performance. The infrastructure is managed using Terraform, ensuring a reproducible and efficient deployment process.",
+    repo: "https://github.com/natan-barel/Wiki.js"
   }
 ];
 
