@@ -1,70 +1,164 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my work as a Cloud Operations and DevOps Engineer. Built with React and deployed on GitHub Pages.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+Visit the live site: [https://natan-barel.github.io/portfolio-app](https://natan-barel.github.io/portfolio-app)
+
+## ✨ Features
+
+- **Home Page**: Hero section with typewriter effect, about section, certifications, and featured projects
+- **Projects Page**: Detailed showcase of cloud infrastructure and DevOps projects with links to GitHub repositories
+- **Articles Page**: Technical articles and blog posts
+- **Resume Page**: Interactive resume with education and work experience, plus downloadable PDF
+- **Contact Form**: Integrated contact form using EmailJS for direct communication
+- **Tech Stack Carousel**: Animated carousel displaying technologies and tools
+- **Responsive Design**: Fully responsive layout optimized for desktop, tablet, and mobile devices
+- **Smooth Navigation**: React Router with scroll-to-top functionality
+
+## 🛠️ Technologies Used
+
+- **React 18** - UI library
+- **React Router DOM** - Client-side routing
+- **React Icons** - Icon library
+- **React Multi Carousel** - Carousel component for tech stack
+- **React Simple Typewriter** - Typewriter effect for hero section
+- **React Slick** - Additional carousel functionality
+- **EmailJS** - Contact form integration
+- **SweetAlert2** - Beautiful alert notifications
+- **CSS3** - Custom styling
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/natan-barel/portfolio-app.git
+cd portfolio-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The app will open at [http://localhost:3000](http://localhost:3000)
+
+## 🚀 Available Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000). The page will reload when you make changes.
 
 ### `npm run build`
+Builds the app for production to the `build` folder. The build is optimized and minified for best performance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm test`
+Launches the test runner in interactive watch mode.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
+Builds the app and deploys it to GitHub Pages using the `gh-pages` package.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
+```
+portfolio-app/
+├── public/
+│   ├── data/
+│   │   └── badges.json          # Certification badges data
+│   └── index.html
+├── src/
+│   ├── assets/                   # Images, logos, and PDF files
+│   ├── components/
+│   │   ├── About/                # About section component
+│   │   ├── Articles/            # Articles listing and modal
+│   │   ├── Certifications/      # Certifications display
+│   │   ├── Contact/             # Contact form
+│   │   ├── Footer/              # Footer component
+│   │   ├── Images/              # Hero image components
+│   │   ├── Navbar/              # Navigation bar
+│   │   ├── Projects/            # Project cards and data
+│   │   ├── Resume/              # Resume/CV components
+│   │   ├── TechStack/           # Technology stack carousel
+│   │   └── ScrollToTop.js       # Scroll to top functionality
+│   ├── routes/                  # Route components
+│   │   ├── Home.js
+│   │   ├── Project.js
+│   │   ├── Articles.js
+│   │   ├── Contact.js
+│   │   └── Resume.js
+│   ├── App.js                   # Main app component with routing
+│   ├── index.js                 # Entry point
+│   └── index.css                # Global styles
+└── package.json
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Key Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **HeroImg**: Hero section with typewriter effect and call-to-action
+- **AboutContent**: Personal introduction and professional background
+- **Work**: Project showcase with cards linking to GitHub repositories
+- **TechCarousel**: Animated carousel of technologies and tools
+- **Certifications**: Display of professional certifications
+- **Resume**: Interactive resume with education and experience timeline
+- **Contact Form**: EmailJS-integrated contact form
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### EmailJS Setup
+To enable the contact form, configure your EmailJS credentials in the `Form.js` component:
+- Service ID
+- Template ID
+- Public Key
 
-## Learn More
+### GitHub Pages Deployment
+The project is configured for GitHub Pages deployment. The homepage is set to `https://natan-barel.github.io/portfolio-app` in `package.json`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To customize this portfolio for your own use:
 
-### Code Splitting
+1. Update personal information in:
+   - `src/components/About/AboutContent.js`
+   - `src/components/Projects/WorkCradData.js`
+   - `src/components/Resume/ResumeApi.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Replace images in `src/assets/` with your own
 
-### Analyzing the Bundle Size
+3. Update the resume PDF in `src/assets/Natan_Barel_Resume.pdf`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Configure EmailJS for the contact form
 
-### Making a Progressive Web App
+5. Update the homepage URL in `package.json` if deploying to a different GitHub Pages URL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌟 Projects Showcased
 
-### Advanced Configuration
+The portfolio features several cloud infrastructure and DevOps projects including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- AWS Terraform Cognito REST API
+- Terraform Jenkins and Ansible setup
+- Prometheus Observability Stack
+- Kubernetes deployments with Helm
+- AWS ECS Fargate applications
+- Flask application deployments
+- And more...
 
-### Deployment
+Each project includes architecture diagrams, descriptions, and links to GitHub repositories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
+This project is private and personal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👤 Author
+
+**Natan Barel**
+- Portfolio: [https://natan-barel.github.io/portfolio-app](https://natan-barel.github.io/portfolio-app)
+- GitHub: [@natan-barel](https://github.com/natan-barel)
+
+---
+
+Built with ❤️ using React
